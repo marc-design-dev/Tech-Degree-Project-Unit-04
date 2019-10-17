@@ -582,7 +582,7 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 21, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_navigation.scss */
+/* line 20, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
