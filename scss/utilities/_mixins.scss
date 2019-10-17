@@ -1,0 +1,6 @@
+
+@mixin mq {
+    @media (min-width: $mq-lg) {
+    @content;
+    }
+}

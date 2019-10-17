@@ -1,10 +1,22 @@
 
+.logo {
+  @include mq {
+  margin-left: initial;
+  margin-right: initial;
+  }
+}
 
 .nav {
     padding-left: 0;
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
+
+    @include mq {
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+    }
   }
   
   .nav-link {
@@ -16,6 +28,10 @@
     transition: 
     background-color .2s ease-in-out, 
     color .2s ease-in-out;
+
+    @include mq {
+      flex-basis: 100px;
+    }
 
         &:hover {
           color: $btn-text-col;

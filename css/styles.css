@@ -417,6 +417,186 @@ a {
   border-radius: 5px;
 }
 
+/* line 3, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.container {
+  padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+  /* line 3, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 14, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+@media (min-width: 768px) {
+  /* line 14, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .row {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 24, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 32, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  /* line 32, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 45, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  [class^=col] + [class^=col] {
+    margin-left: 10px;
+  }
+}
+
+/* line 52, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.theme.col-1 {
+  background-color: #927bc1;
+}
+
+/* line 56, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.theme.col-2 {
+  background-color: #fd7856;
+}
+
+/* line 60, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.theme.col-3 {
+  background-color: #deb2ee;
+}
+
+/* line 64, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.theme.col-4 {
+  background-color: #7ee6fd;
+}
+
+/* line 68, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.theme.col-5 {
+  background-color: #88d9a0;
+}
+
+/* line 72, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.theme.col-6 {
+  background-color: #4da2bb;
+}
+
+/* line 76, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.theme.col-7 {
+  background-color: #ec9fa3;
+}
+
+/* line 80, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.theme.col-8 {
+  background-color: #fd9f85;
+}
+
+/* line 84, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.theme.col-9 {
+  background-color: #e4757a;
+}
+
+/* line 88, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.theme.col-10 {
+  background-color: #63cc82;
+}
+
+/* line 92, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.theme.col-11 {
+  background-color: #51ddfc;
+}
+
+/* line 96, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.theme.col-12 {
+  background-color: #80e8d1;
+}
+
+/* line 100, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+.card {
+  flex-basis: 100%;
+}
+
+@media (min-width: 768px) {
+  /* line 105, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .col-1 {
+    flex-basis: 8.33%;
+  }
+  /* line 109, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .col-2 {
+    flex-basis: 16.67%;
+  }
+  /* line 113, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .col-3 {
+    flex-basis: 25.00%;
+  }
+  /* line 117, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .col-4 {
+    flex-basis: 33.33%;
+  }
+  /* line 121, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .col-5 {
+    flex-basis: 41.67%;
+  }
+  /* line 125, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .col-6 {
+    flex-basis: 50.00%;
+  }
+  /* line 129, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .col-7 {
+    flex-basis: 58.33%;
+  }
+  /* line 133, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .col-8 {
+    flex-basis: 66.67%;
+  }
+  /* line 137, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .col-9 {
+    flex-basis: 75.00%;
+  }
+  /* line 141, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .col-10 {
+    flex-basis: 83.33%;
+  }
+  /* line 145, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .col-11 {
+    flex-basis: 91.67%;
+  }
+  /* line 149, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
+  .col-12 {
+    flex-basis: 100%;
+  }
+}
+
 /* line 3, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
 .btn {
   margin-top: 15px;
@@ -428,27 +608,41 @@ a {
   border-radius: 5px;
 }
 
-/* line 13, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+@media (min-width: 768px) {
+  /* line 3, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 15, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+  .btn + .btn {
+    margin-left: 10px;
+  }
+}
+
+/* line 22, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 17, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+/* line 26, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 21, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+/* line 30, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 25, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+/* line 34, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 29, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+/* line 38, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
 }
@@ -478,93 +672,15 @@ a {
   overflow: hidden;
 }
 
-/* line 3, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.container {
-  padding: 0 10px;
+@media (min-width: 768px) {
+  /* line 2, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_navigation.scss */
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
 }
 
-/* line 7, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.row {
-  display: flex;
-  flex-direction: column;
-  padding: 1em 10px;
-}
-
-/* line 13, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-[class^=col] {
-  margin-top: 10px;
-  flex-basis: 100%;
-  min-height: 25px;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-/* line 21, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.theme.col-1 {
-  background-color: #927bc1;
-}
-
-/* line 25, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.theme.col-2 {
-  background-color: #fd7856;
-}
-
-/* line 29, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.theme.col-3 {
-  background-color: #deb2ee;
-}
-
-/* line 33, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.theme.col-4 {
-  background-color: #7ee6fd;
-}
-
-/* line 37, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.theme.col-5 {
-  background-color: #88d9a0;
-}
-
-/* line 41, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.theme.col-6 {
-  background-color: #4da2bb;
-}
-
-/* line 45, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.theme.col-7 {
-  background-color: #ec9fa3;
-}
-
-/* line 49, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.theme.col-8 {
-  background-color: #fd9f85;
-}
-
-/* line 53, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.theme.col-9 {
-  background-color: #e4757a;
-}
-
-/* line 57, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.theme.col-10 {
-  background-color: #63cc82;
-}
-
-/* line 61, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.theme.col-11 {
-  background-color: #51ddfc;
-}
-
-/* line 65, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.theme.col-12 {
-  background-color: #80e8d1;
-}
-
-/* line 69, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_grid.scss */
-.card {
-  flex-basis: 100%;
-}
-
-/* line 3, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_navigation.scss */
+/* line 9, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_navigation.scss */
 .nav {
   padding-left: 0;
   flex-basis: 100%;
@@ -572,7 +688,16 @@ a {
   flex-direction: column;
 }
 
-/* line 10, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_navigation.scss */
+@media (min-width: 768px) {
+  /* line 9, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_navigation.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+/* line 22, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -582,7 +707,14 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 20, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_navigation.scss */
+@media (min-width: 768px) {
+  /* line 22, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_navigation.scss */
+  .nav-link {
+    flex-basis: 100px;
+  }
+}
+
+/* line 36, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -614,108 +746,6 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media (min-width: 768px) {
-  /* line 5, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .container {
-    max-width: 1400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  /* line 12, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  /* line 18, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .row {
-    flex-direction: row;
-  }
-  /* line 22, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  [class^=col] {
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-    align-items: center;
-  }
-  /* line 29, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  [class^=col] + [class^=col] {
-    margin-left: 10px;
-  }
-  /* line 33, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .col-1 {
-    flex-basis: 8.33%;
-  }
-  /* line 37, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .col-2 {
-    flex-basis: 16.67%;
-  }
-  /* line 41, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .col-3 {
-    flex-basis: 25.00%;
-  }
-  /* line 45, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .col-4 {
-    flex-basis: 33.33%;
-  }
-  /* line 49, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .col-5 {
-    flex-basis: 41.67%;
-  }
-  /* line 53, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .col-6 {
-    flex-basis: 50.00%;
-  }
-  /* line 57, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .col-7 {
-    flex-basis: 58.33%;
-  }
-  /* line 61, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .col-8 {
-    flex-basis: 66.67%;
-  }
-  /* line 65, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .col-9 {
-    flex-basis: 75.00%;
-  }
-  /* line 69, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .col-10 {
-    flex-basis: 83.33%;
-  }
-  /* line 73, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .col-11 {
-    flex-basis: 91.67%;
-  }
-  /* line 77, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .col-12 {
-    flex-basis: 100%;
-  }
-  /* line 81, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .nav {
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  /* line 87, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .nav-link {
-    flex-basis: 100px;
-  }
-  /* line 91, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .btn {
-    padding: 10px 30px;
-  }
-  /* line 95, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .btn + .btn {
-    margin-left: 10px;
-  }
-  /* line 99, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/styles.scss */
-  .logo {
-    margin-left: initial;
-    margin-right: initial;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -8,6 +8,15 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+
+    @include mq {
+      padding: 10px 30px;
+    }
+    &+.btn {
+      @include mq {
+        margin-left: 10px;
+      }
+    }
   }
   
   .default {
