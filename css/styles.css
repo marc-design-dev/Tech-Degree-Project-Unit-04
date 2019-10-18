@@ -627,24 +627,49 @@ a {
   background-color: #51ddfc;
 }
 
-/* line 26, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+/* line 24, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+.default:hover {
+  background-color: #83e7fd;
+}
+
+/* line 29, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 30, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+/* line 31, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+.error:hover {
+  background-color: #eca0a3;
+}
+
+/* line 36, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 34, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+/* line 38, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+.info:hover {
+  background-color: #af9ed1;
+}
+
+/* line 43, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 38, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+/* line 45, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+.success:hover {
+  background-color: #89d9a1;
+}
+
+/* line 50, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
+}
+
+/* line 52, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_button.scss */
+.warning:hover {
+  background-color: #fea088;
 }
 
 /* line 3, ../../../../../Users/macbook/Marc's Files/Work/Code/TechDegree Projects/Tech-Degree-Project-Unit-04/scss/component/_form.scss */
